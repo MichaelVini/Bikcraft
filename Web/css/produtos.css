@@ -1,0 +1,186 @@
+.interna_produtos {
+    background: url("../img/bg-produtos.jpg") no-repeat center;
+    background-size: cover;
+}
+.interna_produtos h1 {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.interna_produtos h1:after {
+    display: block;
+    content: "";
+    margin: 8px auto;
+    width: 72px;
+    height: 3px;
+    background-color: white;
+}
+.interna_produtos p {
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+    line-height: 30px;
+}
+.produto_item {
+    margin-top: 60px;
+}
+.produto_item h2{
+    position: relative;
+    color: white;
+    top: -185px;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: -60px;
+}
+.produto_item h2:before, .produto_item h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 10px auto;
+} 
+.produto_icone {
+    background-color: black;
+    padding: 70px 0;
+}
+.produto_icone img {
+    margin: 0 auto;
+}
+.produtos-text {
+    background-color: black;
+}
+.produtos-text p {
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 30px 40px;
+    height: 180px;
+}
+.produtos-text ul li {
+    background-color:#FDC63E;
+    float: left;
+    width: 229px;
+    height: 49px;
+    padding-top: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.produtos-text ul li:nth-child(1), .produtos-text ul li:nth-child(2) {
+    margin-bottom: 2px;
+} 
+.produtos-text ul li:nth-child(even) {
+    margin-left: 2px;
+}
+
+/* Orçamento */
+
+.orcamento {
+    background-color: black;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: -100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.orcamento h2 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin: 20px 0 20px;
+    color: #FDC63E;
+    padding-bottom: 40px;
+}
+.orcamento h2:after {
+    display: block;
+    content: "";
+    background-color:  #FDC63E;
+    margin: 8px auto;
+    width: 72px;
+    height: 3px;
+}
+.form {
+    padding-right: 60px;
+}
+.form label {
+    display: block;
+    padding: 15px 0 10px 0;
+    font-size: 16px;
+    color: #FDC63E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form input {
+    border: 3px solid #FDC63E;
+    display: block;
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.form textarea {
+    border: 3px solid #FDC63E;
+    display: block;
+    width: 400px;
+    height: 120px;
+    background-color: black;
+    color: white;
+}
+.btn-2 {
+    border: 3px solid  #FDC63E;
+    padding: 6px 18px;
+    color: #FDC63E;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin-top: 15px;
+    background-color: black;
+}
+.btn-2:hover {
+    border: 3px solid white;
+    color: white;
+}
+.dados {
+    padding-top: 5px;
+}
+.dados h3 {
+    color: #FDC63E;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.dados span {
+    color: white;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 10px 0 10px 0; 
+}
+.dados ul li {
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+}
+.dados ul li:nth-child(odd) {
+    background: #1d1d1d;
+}
+.email-bik {
+    padding-bottom: 40px;
+}
+.dados p {
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0;
+}

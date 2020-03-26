@@ -1,0 +1,53 @@
+.interna_sobre {
+    background: url("../img/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.interna_sobre h1{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.interna_sobre h1:after {
+    display: block;
+    content: "";
+    margin: 8px auto;
+    width: 72px;
+    height: 3px;
+    background-color: white;
+} 
+.interna_sobre p {
+    text-align: center;
+    color: white;
+    margin-top: 14px;
+    line-height: 30px;
+}
+.sobre_lista h3 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin: 20px 0 20px;
+}
+.sobre_lista h3:after {
+    display: block;
+    content: "";
+    margin: 8px 0 10px;
+    width: 60px;
+    height: 3px;
+    background-color: black;
+}
+.sobre_lista p {
+    margin-top: 14px;
+    padding-right: 160px;
+}
+.sobre_lista ul li {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+.foto-equipe {
+    padding-top: 40px;
+}

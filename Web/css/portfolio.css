@@ -1,0 +1,49 @@
+.interna_portfolio {
+    background: url("../img/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.interna_portfolio h1 {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.interna_portfolio h1:after {
+    display: block;
+    content: "";
+    margin: 8px auto;
+    width: 72px;
+    height: 3px;
+    background-color: white;
+} 
+.interna_portfolio p {
+    text-align: center;
+    color: white;
+    margin-top: 14px;
+    line-height: 30px;
+}
+.frase-portfolio{
+    padding: 60px 0;
+    max-width: 460px;
+    margin: 0 auto;
+}
+.frase-portfolio p {
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: italic;
+}
+.frase-portfolio cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em;
+    float: right;
+}
+.portfolio {
+    margin-bottom:-60px;
+}
