@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/produtos.css">
+        <link rel="stylesheet" href="css/responsivo.css">
     </head>
     <body>
         <header class="header">
@@ -18,7 +19,7 @@
                 <nav class="header_menu grid-12">
                     <ul>
                         <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="produtos.html"  class="menu_ativo">Produtos</a></li>
                         <li><a href="portfolio.html">Portfólio</a></li>
                         <li><a href="contato.html">Contato</a></li>
                     </ul>
@@ -27,7 +28,7 @@
         </header>
         <section class="introducao-interna interna_produtos">
             <div class="container">
-                <h1>Sobre</h1>
+                <h1>Produtos</h1>
                 <p>conheça mais sobre bikcraft</p>
             </div>
         </section>
@@ -39,10 +40,10 @@
             <div class="grid-5 produto_icone">
                 <img src="img/produtos/passeio.svg" alt="">
             </div>
-            <div class="grid-8">
+            <div class="grid-8 display-none">
                 <img src="img/produtos/bikcraft-passeio-2.jpg" alt="">
             </div>
-            <div class="grid-8 produtos-text">
+            <div class="grid-8 produtos-text display-none">
                 <p>O verdadeiro segredo da felicidade está em ter um genuino interesse por todos os detalhes da vida cotidiana.
                     Interesse por todos os detalhes da vida cotidiana.
                 </p>
@@ -62,10 +63,10 @@
             <div class="grid-5 produto_icone">
                 <img src="img/produtos/esporte.svg" alt="">
             </div>
-            <div class="grid-8">
+            <div class="grid-8 display-none">
                 <img src="img/produtos/bikcraft-esporte-2.jpg" alt="">
             </div>
-            <div class="grid-8 produtos-text">
+            <div class="grid-8 produtos-text display-none">
                 <p>O verdadeiro segredo da felicidade está em ter um genuino interesse por todos os detalhes da vida cotidiana.
                     Interesse por todos os detalhes da vida cotidiana.
                 </p>
@@ -85,10 +86,10 @@
             <div class="grid-5 produto_icone">
                 <img src="img/produtos/retro.svg" alt="">
             </div>
-            <div class="grid-8">
+            <div class="grid-8 display-none">
                 <img src="img/produtos/bikcraft-retro-2.jpg" alt="">
             </div>
-            <div class="grid-8 produtos-text">
+            <div class="grid-8 produtos-text  display-none">
                 <p>O verdadeiro segredo da felicidade está em ter um genuino interesse por todos os detalhes da vida cotidiana.
                     Interesse por todos os detalhes da vida cotidiana.
                 </p>
@@ -107,9 +108,9 @@
                     <label for="nome">Nome</label>
                     <input type="text" id="nome" class="input">
                     <label for="e-mail">E-mail</label>
-                    <input type="text" id="email">
+                    <input type="text" id="email"  class="input">
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone">
+                    <input type="text" id="telefone"  class="input">
                     <label for="msg">Especificações</label>
                     <textarea id="msg"></textarea>
                     <button type="submit" class="btn-2">Enviar</button>

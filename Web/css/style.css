@@ -28,6 +28,7 @@ p {
 }
 img {
     display: block;
+    max-width: 100%;
 }
                 /* Header*/
 .header {
@@ -54,6 +55,9 @@ img {
     letter-spacing: 0.05em;
 }
 .header_menu ul li a:hover {
+    color: white;
+}
+.header_menu ul li a.menu_ativo {
     color: white;
 }
 .introducao {
