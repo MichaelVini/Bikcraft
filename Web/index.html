@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsivo.css">
+        <script> document.documentElement.classList.add("js")</script>
     </head>
     <body>
         <header class="header">
@@ -27,15 +28,15 @@
         </header>
         <section class="introducao">
             <div class="container">
-                <h1>Bicicletas Feitas a Mão</h1>
-                <blockquote class="quote-externo">
+                <h1 data-anime ="400" class="fadeInDown">Bicicletas Feitas a Mão</h1>
+                <blockquote data-anime = "800" class="fadeInDown quote-externo">
                     <p>"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
                     <cite>WILLIAM MORRIS</cite>
                 </blockquote>
-                <a href="produtos.html" class="btn">Orçamento</a>
+                <a href="produtos.html" data-anime = "1200" class="fadeInDown btn">Orçamento</a>
             </div>
         </section>
-        <section class="container">
+        <section class="container fadeInDown" data-anime = "1600">
             <h2 class="subtitulo sub-produto">Produtos</h2 class="subtitulo">
             <ul class="produtos_lista">
 
@@ -130,8 +131,8 @@
                         <h3>Contato</h3>
                         <ul>
                             <li>- 21 23212-21221</li>
-                            <li>contato@bikcraft.com</li>
-                            <li>Botafogo - RJ</li>
+                            <li>michaelvini@bikcraft.com</li>
+                            <li>São José dos Campos - SP</li>
                         </ul>
                     </div>
                     <div class="grid-4 footer_redes">
@@ -150,5 +151,8 @@
                 </div>
             </div>
         </footer>
+        <script src="./js/simple-slide.js"></script>
+        <script src="./js/simple-anime.js"></script>
+        <script src="./js/script.js"></script>
     </body>
-</html>
+</html>+
